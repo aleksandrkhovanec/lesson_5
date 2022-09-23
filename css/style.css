@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@font-face{
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-BoldItalic.woff2") format("woff2"), url("../fonts/Ubuntu-BoldItalic.woff") format("woff");
+    font-display: swap;
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face{
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-Regular.woff2") format("woff2"), url("../fonts/Ubuntu-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: "Roboto Slab"; 
+    font-size: 18px;
+    line-height: 1.4;  
+}
+img{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+h1, h2, h3{
+    font-family: "Ubuntu";
+    font-weight: 900;
+    font-style: italic;    
+}
+h1{
+    text-shadow: 10px 0px 15px rgb(7, 109, 156);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 34px;
+    margin: 40px 0;
+}
+h2, h3{
+    text-shadow: 10px 0px 15px rgb(32, 156, 7);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.text, .list{
+    margin-bottom: 40px;    
+}
+p{    
+    text-indent: 25px;
+    margin-bottom: 20px;
+}
+ul.link{
+    text-decoration: underline;
+    line-height: 2;
+    margin-left: 40px;
+}
+.link-text li{         
+    margin: 0 0 20px 40px;
+}
+a.link{
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(158, 172, 255);
+    text-decoration: underline;
+}
+.word-spacing{
+    word-spacing: 30px;
+}
+.white-space{
+    white-space: nowrap;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.right{
+    text-align: right;
+}
+.text-transform{    
+    text-transform: capitalize;
+}
+span{
+    text-transform: uppercase;
+    color: red;
+}
+.overline{
+    text-decoration: overline;
+    text-align: justify;
+}
+.red.blue{
+    color: blueviolet;
+}
+.text-p p{
+    color: chocolate;
+    text-shadow: 0px 0px 15px rgb(156, 7, 7);    
+}
+.text .text-transform{
+    text-align: center;
+    color: deeppink;
+}
+.text-lvl > p{
+    color: chartreuse;
+}
+.plus + p{
+    color: dodgerblue;
+}
+.green ~ p{
+    color: greenyellow;
+}
